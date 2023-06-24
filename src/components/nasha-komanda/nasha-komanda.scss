@@ -1,0 +1,89 @@
+.n__nasha_komanda {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .n__nasha__h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 32px;
+        line-height: 40px;
+        span {
+            color: #EF7C00;
+        }
+    }
+    .n__fleks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        gap: 30px;
+        div {
+            overflow: hidden;
+        }
+        img {
+            // width: 100%;
+            width: 203px;
+            height: 203px;
+            border-radius: 50%;
+            transition: .5s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .n__h4 {
+            color: #2C2D2E;
+            text-align: center;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        .n__p2 {
+            color: #919399;
+            margin-bottom: 7px;
+            text-align: center;
+        }
+        .n__p3 {
+            color: #2C2D2E;
+            margin-bottom: 6px;
+            text-align: center;
+        }
+        .n__p4 {
+            text-align: center;
+            
+        }
+        .n__bir {
+            margin-top: 0px;
+            text-align: center;
+        }
+    }
+}
+
+
+@media (max-width: 1315px) {
+    .n__nasha_komanda {
+        .n__fleks {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 1185px) {
+    .n__nasha_komanda {
+        .n__fleks {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 866px) {
+    .n__nasha_komanda {
+        .n__fleks {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 566px) {
+    .n__nasha_komanda {
+        .n__fleks {
+            grid-template-columns: 1fr;
+        }
+    }
+}
