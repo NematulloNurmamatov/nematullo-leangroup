@@ -7,11 +7,15 @@
     left: 0;
     padding: 7px;
     z-index: 9999;
+    li {
+        list-style: none;
+    }
 
     .a {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
 
         .bb {
             display: flex;
