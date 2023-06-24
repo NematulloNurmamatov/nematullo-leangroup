@@ -1,0 +1,25 @@
+.slid{
+    max-width: 1200px;
+      margin-left:  auto;
+      margin-right: auto;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-bottom: 90px;
+  }
+  .c img{
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+  }
+  .slick-prev, .slick-next{
+    background: black !important;
+    border-radius: 20px !important;
+  }
+  .slick-prev{
+    left: -9px !important;
+    z-index: 999 !important;
+  }
+  .slick-next{
+    right: -9px !important;
+    z-index: 999 !important;
+  }
